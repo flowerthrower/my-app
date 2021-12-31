@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project contains a short React App which provides the three most frequent words in a given text.
 
 ## Available Scripts
 
