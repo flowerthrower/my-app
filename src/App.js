@@ -23,7 +23,10 @@ function App() {
     }
     
     var dict = { };
-    var words = inpt.split(" ");
+    // prepare string 
+    var noDot = inpt.replaceAll('.', '');
+    var noComma = noDot.replaceAll(',', '');
+    var words = noComma.split(" ");
 
     for(var i = 0; i < words.length; i++)
         dict[words[i].toLowerCase()] = (dict[words[i].toLowerCase()] || 0) + 1;
